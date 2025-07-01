@@ -1,9 +1,4 @@
-Here’s a clean and professional `README.md` for your **FlatFinder** app built with **React + Java Spring Boot**:
-
----
-
-```markdown
-# 🏠 FlatFinder
+# FlatFinder
 
 **FlatFinder** is a full-stack rental marketplace application that helps users find or list available shared flats and flatmates — just like posts on Facebook groups, but with a better experience.
 
@@ -55,10 +50,10 @@ FlatFinder/
 ```bash
 cd frontend
 npm install
-npm run dev
+npm start
 ````
 
-> Runs the React frontend on [http://localhost:5173](http://localhost:5173)
+> Runs the React frontend on [http://localhost:3000](http://localhost:3000)
 
 ### ⚙️ Backend
 
@@ -119,16 +114,3 @@ MIT License
 ---
 
 > Built with ❤️ by Akshat Jalan
-
-```
-
----
-
-Let me know if you want:
-- Database schema section
-- Swagger API docs
-- Deployment instructions (e.g., Render, Railway, Netlify, etc.)
-- Screenshots of the app
-
-Happy building 🚀
-```
