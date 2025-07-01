@@ -1,0 +1,195 @@
+.details-page {
+  padding: 40px;
+  padding-top: 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #222;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.details-header {
+  margin-bottom: 24px;
+}
+
+.listing-meta {
+  color: #717171;
+  font-size: 15px;
+}
+
+.details-gallery-layout {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.main-photo img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.main-photo img:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 0.2s ease-in-out;
+}
+
+.side-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+}
+
+.side-photos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.side-photos img:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 0.2s ease-in-out;
+}
+
+.details-main-content {
+  display: flex;
+  gap: 48px;
+  margin-top: 24px;
+}
+
+.left-column {
+  flex: 2;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.rating-box {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.rating {
+  font-weight: bold;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.booking-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #fafafa;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.booking-card input,
+.booking-card select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.reserve-btn {
+  background-color: #5CC765;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.reserve-btn:hover {
+  background-color: #4ea455;
+}
+
+
+
+
+
+/* Description */
+.listing-description {
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.show-more {
+  display: inline-block;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  padding-left: 6px;
+}
+
+.amenities-section {
+  margin-top: 40px;
+}
+
+.amenities-section h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.amenities-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 24px;
+  font-size: 16px;
+}
+
+.amenities-grid .disabled {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.show-all-btn {
+  margin-top: 16px;
+  background-color: #eee;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.report-link {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #555;
+}
+
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  cursor: pointer;
+}

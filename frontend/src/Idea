@@ -1,0 +1,7 @@
+Manual Initial Seeding (Most Practical)
+
+Until you scale, you can:
+	•	Manually collect the best posts from Facebook groups.
+	•	Store them in your database with a flag like source: "Facebook".
+
+I want to do this
